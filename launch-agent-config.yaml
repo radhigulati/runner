@@ -3,7 +3,7 @@ api:
 
 runner:
   name: mac1_main
-  command_prefix : ["sudo", "-niHu", "radhigulati", "--"]
+  command_prefix : ["sudo", "-niHu", "radhika", "--"]
   working_directory: /tmp/%s
   cleanup_working_directory: true
 
