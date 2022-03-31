@@ -1,0 +1,13 @@
+api:
+  auth_token: 7e84025f43d7d5e7374aab7ed56918c3cf356c39707f01d1ae471036a627d5522f2b406a4f433d51
+
+runner:
+  name: mac1_main
+  command_prefix : ["sudo", "-niHu", "radhigulati", "--"]
+  working_directory: /tmp/%s
+  cleanup_working_directory: true
+
+logging:
+  file: /Library/Logs/com.circleci.runner.log
+
+
